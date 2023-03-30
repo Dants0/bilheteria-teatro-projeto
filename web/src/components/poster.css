@@ -1,0 +1,56 @@
+.container_cartaz{
+    display: flex;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.wrapper{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.box_movie_1_2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ccc;
+    gap: 5rem;
+    width: 25%;
+}
+.box_movie_3_4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ccc;
+    gap: 5rem;
+    width: 25%;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 25rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.movie_logo{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+}

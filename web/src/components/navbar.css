@@ -1,0 +1,46 @@
+.container_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #555555;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+}
+
+.navUl, .navLi{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.logo{
+    width: 14rem;
+    height: 8rem;
+}
+
+.links_nav{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.links_nav:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 1px 0 0 #fff;
+}
