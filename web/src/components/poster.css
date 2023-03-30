@@ -1,44 +1,56 @@
 .container_cartaz{
     display: flex;
-    border: 1px solid #ccc;
+    box-shadow: 0 0 1px 8px #ccc;
     flex-direction: column;
-    justify-content: center;
     margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
 }
 
-.wrapper{
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
+h2{
+    font-size: 18px;
 }
 
-.box_movie_1_2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid #ccc;
-    gap: 5rem;
-    width: 25%;
-}
-.box_movie_3_4{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid #ccc;
-    gap: 5rem;
-    width: 25%;
+.box_movies{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 20px 20px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
 }
 
 .movie{
+    align-items: center;
     display: flex;
     flex-direction: column;
     padding: 1rem;
     border: 1px solid #ccc;
     justify-content: center;
     align-items: center;
+    background-color: azure;
+    width: 25rem;
+}
+
+.container_movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10rem;
 }
 
 button{
@@ -49,8 +61,8 @@ h2{
     text-align: center;
 }
 
-.movie_logo{
-    width: 15rem;
-    height: 15rem;
+.logo{
+    width: 10rem;
+    height: 10rem;
     border-radius: 5px;
 }

@@ -42,5 +42,5 @@ nav{
 
 .links_nav:hover{
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 2px 0 0 #ffc14d;
 }
