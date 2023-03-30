@@ -34,7 +34,7 @@ const Poster = () => {
                 <span>Preço: {item.preco}</span>
                 <span>Mais informações no card.</span>
               </div>
-              <button onClick={() => alertMessage(item.name, item.preco)}>Comprar</button>
+              <button onClick={() => alertMessage(item.name, item.preco)} className="btnBuy">Comprar</button>
             </div>
           </div>
         ))}
