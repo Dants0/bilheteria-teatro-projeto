@@ -1,0 +1,54 @@
+.container_register_and_login{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    margin: 1rem;
+}
+
+.container_register_comp, .container_login_comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    border-radius: 5px;
+    background-color: rgba(200, 231, 237);
+    gap: 1rem;
+}
+
+form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+input{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 0 2px 0 0 #ffffff;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+}
+
+input::placeholder{
+    outline: none;
+    border: none;
+    
+}
+
+.btnReg{
+    width: 5rem;
+}
+
+.btnEnter{
+    width: 5rem;
+}
