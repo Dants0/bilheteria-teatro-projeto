@@ -11,7 +11,7 @@ const Poster = () => {
 
   const alertMessage = (movieName, moviePrice) => {
 
-    alert(`Comprou ${movieName} custou ${moviePrice} reais e seu ingresso ${uuidv4()}`)
+    alert(`Comprou ${movieName} custou ${moviePrice} e seu ingresso ${uuidv4()}`)
   }
 
   console.log(pecas.map((item, index) => {
