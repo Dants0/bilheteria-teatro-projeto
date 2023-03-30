@@ -1,28 +1,29 @@
-.container_cartaz{
+.container_cartaz {
     display: flex;
-    box-shadow: 0 0 1px 8px #ccc;
+    box-shadow: 0 0 1px 2px #ccc;
     flex-direction: column;
     margin: 1rem;
     border-radius: 5px;
     padding: 1rem;
 }
 
-h2{
+h2 {
     font-size: 18px;
 }
 
-.box_movies{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 20px 20px; 
-    grid-template-areas: 
-      ". . ."
-      ". . ."
-      ". . ."; 
+.box_movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
 }
 
-.movie{
+.movie {
+    border-radius: 5px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -34,7 +35,7 @@ h2{
     width: 25rem;
 }
 
-.container_movie{
+.container_movie {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,27 +43,28 @@ h2{
     gap: 10px;
 }
 
-button{
-    cursor: pointer;
+span {
+    font-weight: 500;
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 10rem;
+    width: 16rem;
 }
 
-button{
+button {
     width: 25rem;
+    cursor: pointer;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.logo{
-    width: 10rem;
+.logo {
+    width: 16rem;
     height: 10rem;
     border-radius: 5px;
 }

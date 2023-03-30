@@ -1,0 +1,77 @@
+/* reset */
+
+.HoverCardContent {
+  border-radius: 6px;
+  padding: 20px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0px 2px 50px 10px #ffc14d;
+  border: 1px solid #c9c9c9;
+  animation-duration: 100ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.HoverCardContent[data-side='top'] {
+  animation-name: slideDownAndFade;
+}
+
+.HoverCardContent[data-side='right'] {
+  animation-name: slideLeftAndFade;
+}
+
+.HoverCardContent[data-side='bottom'] {
+  animation-name: slideUpAndFade;
+}
+
+.HoverCardContent[data-side='left'] {
+  animation-name: slideRightAndFade;
+}
+
+.HoverCardArrow {
+  fill: white;
+}
+
+.ImageTrigger {
+  cursor: pointer;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.ImageTrigger:focus {
+  box-shadow: 0 0 0 2px white;
+}
+
+.Image {
+  display: block;
+  width: 14rem;
+  height: 8rem;
+}
+
+.Image.normal {
+  width: 14rem;
+  height: 12rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Image.large {
+  width: 14rem;
+  height: 8rem;
+}
+
+.Text {
+  margin: 0;
+  color: var(--mauve12);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.Text.faded {
+  color: var(--mauve10);
+  font-weight: bold;
+}
+
+.Text.bold {
+  font-weight: 500;
+}
